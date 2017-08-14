@@ -41,5 +41,5 @@ if __name__ == '__main__':
         if r.status_code == 403:
             sendmessage('Error','Token TTL has expired. Get new token on https://dev.hh.ru/admin/')
         if r.status_code == 200:
-            sendmessage('Success', 'Your resume https://hh.ru/resume/' + resume_id + ' is update')
+            sendmessage('Success', 'Your resume https://hh.ru/resume/' + resume_id + ' is updated')
     sendRequest()
